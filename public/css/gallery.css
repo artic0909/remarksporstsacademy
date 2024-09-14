@@ -1,0 +1,98 @@
+
+#btnss_main{
+    padding-bottom: 3rem !important;
+}
+
+
+#gallery-2 .nav-item {
+  button {
+    background: white;
+    color: rgb(21, 21, 65);
+    border-radius: 0 !important;
+&:hover{
+    background: rgb(209, 53, 69) !important;
+    color: white !important;
+    scale: 1.02;
+}
+  }
+  .active {
+    background: rgb(209, 53, 69) !important;
+    color: white !important;
+  }
+}
+
+
+/* ============gallery main part start======================== */
+.view_main1{
+    display: flex !important;
+    gap: 3%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.gallery_details_main{
+    .gallery_d_inner{
+        margin-left: 3%;
+        margin-right: 3%;
+        margin-bottom: 3%;
+
+
+
+        .gallery_img{
+            width: 400px;
+            padding-bottom: 10%;
+            overflow: hidden;
+            transition: all 140ms ease-in;
+            cursor: pointer;
+            &:hover{
+                scale: 1.03;
+            }
+        }
+
+        iframe{
+            padding-bottom: 1% !important;
+        }
+    }
+}
+/* ============gallery main part end======================== */
+
+
+
+/* ============scroll effect start============ */
+.view_main1 {
+    overflow-y: auto; /* Allow vertical scrolling */
+    height: 900px;
+    scroll-behavior: smooth; /* Smooth scrolling */
+}
+
+article {
+    position: relative;
+    animation: scrollUpDown 25s linear infinite; /* Infinite scrolling */
+}
+
+@keyframes scrollUpDown {
+    0% {
+        transform: translateY(0); /* Start from top */
+    }
+    50% {
+        transform: translateY(-50%); /* Scroll to the middle */
+    }
+    100% {
+        transform: translateY(-100%); /* Scroll to the bottom */
+    }
+}
+
+
+
+.view_main1::-webkit-scrollbar {
+    display: none;
+  }
+  
+
+  .view_main1 {
+    -ms-overflow-style: none; 
+    scrollbar-width: none;  
+  }
+
+  
+/* ============scroll effect end============ */

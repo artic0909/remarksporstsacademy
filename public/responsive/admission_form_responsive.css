@@ -1,0 +1,122 @@
+/* ================================================== */ /* ================================================== */
+/* ------------------------------Responsive Admission Form Saklin Mustak ©Copyright 2022----------------------------------------- */
+/* ================================================== */ /* ================================================== */
+
+@media (min-width: 350px) and (max-width: 441px) {
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+
+  /* heading */
+  .admission_form_main .add_form_inner .os_heading_part {
+    .img_main img {
+      width: 55px;
+    }
+    .our_s_heading {
+      font-size: 1.2rem;
+    }
+  }
+  /* heading */
+
+  /* steps circle */
+  .step-circle {
+    width: 30px;
+    height: 30px;
+  }
+  /* steps circle */
+
+  /* ================================================contact query start========================================= */
+  .contact_q {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .contact_q_inner {
+      border-left: 4px solid rgb(209, 53, 69);
+      padding-left: 10px;
+      padding-right: 10px;
+      h4 {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: rgb(21, 21, 65);
+      }
+      p {
+        color: rgb(21, 21, 65);
+        font-size: 9px;
+      }
+    }
+  }
+  /* ================================================contact query end========================================= */
+
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+@media (min-width: 442px) and (max-width: 599px) {
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+
+  /* heading */
+  .admission_form_main .add_form_inner .os_heading_part {
+    .img_main img {
+      width: 70px;
+    }
+    .our_s_heading {
+      font-size: 1.5rem;
+    }
+  }
+  /* heading */
+  /* steps circle */
+  .step-circle {
+    width: 40px;
+    height: 40px;
+  }
+  /* steps circle */
+
+
+}
+
+@media (min-width: 600px) and (max-width: 765px) {
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+}

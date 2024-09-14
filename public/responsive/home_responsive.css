@@ -1,0 +1,1023 @@
+/* ================================================== */ /* ================================================== */
+/* ------------------------------Responsive Home Saklin Mustak ©Copyright 2022----------------------------------------- */
+/* ================================================== */ /* ================================================== */
+
+@media (min-width: 350px) and (max-width: 414px) {
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 1.3rem;
+  }
+  .img_main img {
+    width: 40px;
+  }
+  .sports_info_inner {
+    .nav-item .nav-link {
+      font-size: 13px !important;
+    }
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: block;
+      margin: 20px;
+      margin-top: -7px;
+      .os_icon_desc_inner {
+        .img_back {
+          padding: 0.5rem;
+        }
+        .os_icon {
+          width: 30px;
+        }
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          font-size: 10px;
+          .os_heading {
+            font-size: 0.8rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 50px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 6%;
+    margin-right: 6%;
+
+    .s_link_content_heading {
+      font-size: 1rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 3px;
+    }
+
+    .s_links_parts_main {
+      display: block;
+
+      .s_link_icon {
+        width: 30px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 35px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .post_title {
+    font-size: 1rem !important;
+  }
+  .post_desc {
+    font-size: 10px;
+  }
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1100px;
+      overflow-y: auto;
+      .nav-pills {
+        display: flex;
+        justify-content: space-around;
+        gap: 0 !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_desc {
+    font-size: 14px !important;
+  }
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+@media (min-width: 415px) and (max-width: 599px) {
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 1.5rem;
+  }
+  .img_main img {
+    width: 60px;
+  }
+  .sports_info_inner {
+    .nav-item .nav-link {
+      font-size: 13px !important;
+    }
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: block;
+      margin: 20px;
+      margin-top: -7px;
+      .os_icon_desc_inner {
+        .img_back {
+          padding: 0.5rem;
+        }
+        .os_icon {
+          width: 40px;
+        }
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          font-size: 12px;
+          .os_heading {
+            font-size: 1rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 55px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 6%;
+    margin-right: 6%;
+
+    .s_link_content_heading {
+      font-size: 1.1rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 3px;
+    }
+
+    .s_links_parts_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4%;
+
+      .s_link_icon {
+        width: 30px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        margin-top: 35px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1100px;
+      overflow-y: auto;
+      .nav-pills {
+        display: flex;
+        justify-content: space-around;
+        gap: 0 !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+@media (min-width: 600px) and (max-width: 765px) {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 2rem;
+  }
+
+  .sports_info_inner {
+    .nav-item .nav-link {
+      font-size: 13px !important;
+    }
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: block;
+      margin: 20px;
+      .os_icon_desc_inner {
+        .img_back {
+          padding: 1rem;
+        }
+        .os_icon {
+          width: 60px;
+        }
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          .os_heading {
+            font-size: 1.1rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 6%;
+    margin-right: 6%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 70px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 6%;
+    margin-right: 6%;
+
+    .s_link_content_heading {
+      font-size: 1.1rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 10px;
+    }
+
+    .s_links_parts_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4%;
+      .s_link_icon {
+        width: 30px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+      .nav-pills {
+        display: flex;
+        justify-content: start;
+        gap: 5 !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 2.3rem;
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2%;
+
+      .os_icon_desc_inner {
+        .img_back {
+          padding: 0.6rem;
+        }
+        .os_icon {
+          width: 40px;
+        }
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          font-size: 14px;
+          .os_heading {
+            font-size: 1.1rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 100px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .s_link_content_heading {
+      font-size: 1.3rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 10px;
+    }
+
+    .s_links_parts_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 4%;
+      .s_link_icon {
+        width: 50px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 35px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 0.8rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 2.6rem;
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2%;
+
+      .os_icon_desc_inner {
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          .os_heading {
+            font-size: 1.5rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 100px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .s_link_content_heading {
+      font-size: 1.7rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 10px;
+    }
+
+    .s_links_parts_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3%;
+      .s_link_icon {
+        width: 50px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 7px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 1rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================future focus start===================== */
+  .our_s_heading {
+    font-size: 2.6rem;
+  }
+  .os_content_part .os_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .os_icon_desc_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2%;
+
+      .os_icon_desc_inner {
+        .os_desc {
+          text-align: justify;
+          display: flex;
+          flex-direction: column;
+          .os_heading {
+            font-size: 1.5rem;
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+  /* =================future focus end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our collaboration start===================== */
+  .scroll_container {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+  .container {
+    overflow: hidden;
+    .slider {
+      animation: slidein 30s linear infinite;
+      white-space: nowrap;
+      display: flex;
+      gap: 5%;
+      .logos {
+        display: inline-block;
+        margin: 0px 0;
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+        .fab {
+          width: 130px;
+          animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955)
+            forwards;
+        }
+      }
+    }
+  }
+  /* =================our collaboration end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================direct links start===================== */
+  .s_link_content_inner {
+    margin-left: 3%;
+    margin-right: 3%;
+
+    .s_link_content_heading {
+      font-size: 2rem;
+      text-align: center;
+      font-weight: 700;
+      word-spacing: 10px;
+    }
+
+    .s_links_parts_main {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 3%;
+      .s_link_icon {
+        width: 60px;
+      }
+      .s_link_button {
+        display: flex;
+        gap: 10px;
+        align-items: center;
+        justify-content: center;
+        margin-top: 40px;
+        .s_link_text {
+          font-weight: 700;
+          font-size: 1.4rem;
+        }
+      }
+    }
+  }
+  /* =================direct links end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+@media only screen and (min-width: 1304px) {
+  /* =================our sports info start===================== */
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  /* =================our sports info end===================== */
+}

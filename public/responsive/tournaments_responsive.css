@@ -1,0 +1,762 @@
+/* ================================================== */ /* ================================================== */
+/* ------------------------------Responsive Tournaments Saklin Mustak ©Copyright 2022----------------------------------------- */
+/* ================================================== */ /* ================================================== */
+
+@media (min-width: 350px) and (max-width: 414px) {
+  /* ================================================contact query start========================================= */
+  .contact_q {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .contact_q_inner {
+      border-left: 4px solid rgb(209, 53, 69);
+      padding-left: 0px;
+      padding-right: 10px;
+      h4 {
+        font-size: 0.7rem;
+        font-weight: 600;
+        color: rgb(21, 21, 65);
+      }
+      p {
+        color: rgb(21, 21, 65);
+        font-size: 9px;
+      }
+    }
+  }
+  /* ================================================contact query end========================================= */
+  /*  */
+
+  /*  */
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* heading */
+  .os_heading_part {
+    padding-top: 3rem;
+    padding-bottom: 0 !important;
+  }
+  .os_heading_part {
+    .img_main img {
+      width: 65px;
+    }
+    .our_s_heading {
+      font-size: 1.92rem;
+    }
+  }
+  /* heading */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  .btns_inner {
+    .nav-pills {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 0 !important;
+    }
+  }
+
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1100px;
+      overflow-y: auto;
+      padding-bottom: 1rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 13px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  #gallery-2 .result_overflow_main {
+    height: 760px;
+    overflow-y: auto;
+  }
+  #gallery-2 .result_overflow_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  #gallery-2 .result_overflow_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    margin-top: 2%;
+    .t_d_left {
+      height: 300px;
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      .t_d_heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .t_d_place {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+        margin-top: 1rem;
+      }
+
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 11px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 11px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+  /*  */
+}
+
+@media (min-width: 415px) and (max-width: 599px) {
+  /* ================================================contact query start========================================= */
+  .contact_q {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .contact_q_inner {
+      border-left: 4px solid rgb(209, 53, 69);
+      padding-left: 20px;
+      padding-right: 20px;
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: rgb(21, 21, 65);
+      }
+      p {
+        color: rgb(21, 21, 65);
+        font-size: 12px;
+      }
+    }
+  }
+  /* ================================================contact query end========================================= */
+  /*  */
+
+  /*  */
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* heading */
+  .os_heading_part {
+    padding-top: 3rem;
+    padding-bottom: 0 !important;
+  }
+  /* heading */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  .btns_inner {
+    .nav-pills {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 0 !important;
+    }
+  }
+
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1200px;
+      overflow-y: auto;
+      padding-bottom: 1rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 13px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  #gallery-2 .result_overflow_main {
+    height: 760px;
+    overflow-y: auto;
+  }
+  #gallery-2 .result_overflow_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  #gallery-2 .result_overflow_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    margin-top: 2%;
+    .t_d_left {
+      height: 300px;
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      .t_d_heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .t_d_place {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+        margin-top: 1rem;
+      }
+
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 11px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 12px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 600px) and (max-width: 765px) {
+  .btns_inner {
+    .nav-pills {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 0 !important;
+    }
+  }
+
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1200px;
+      overflow-y: auto;
+      padding-bottom: 1rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 13px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  #gallery-2 .result_overflow_main {
+    height: 760px;
+    overflow-y: auto;
+  }
+  #gallery-2 .result_overflow_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  #gallery-2 .result_overflow_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2%;
+    margin-top: 2%;
+    .t_d_left {
+      height: 300px;
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      margin-top: 10px;
+      margin-bottom: 25px;
+      .t_d_heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .t_d_place {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+        margin-top: 1rem;
+      }
+
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 11px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 12px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  .btns_inner {
+    .nav-pills {
+      display: flex;
+      justify-content: space-evenly;
+      gap: 0 !important;
+    }
+  }
+
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1200px;
+      overflow-y: auto;
+      padding-bottom: 1.4rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 2%;
+    margin-top: 2%;
+    .t_d_left {
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 10px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      .t_d_heading {
+        font-size: 1.5rem;
+        font-weight: 700;
+      }
+      .t_d_place {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+        margin-top: 1rem;
+      }
+
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 0.7rem;
+        opacity: 0.87;
+        word-spacing: 5px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 11px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 12px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+
+  /*  */
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+      padding-bottom: 1.4rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3%;
+    margin-top: 2%;
+    .t_d_left {
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      .t_d_heading {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .t_d_place,
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 1rem;
+        opacity: 0.87;
+        word-spacing: 10px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 13px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 13px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+
+  /*  */
+}
+
+@media (min-width: 1200px) and (max-width: 1300px) {
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+      padding-bottom: 1.4rem;
+      .nav-pills .nav-item .nav-link {
+        font-size: 14px !important;
+      }
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+
+  /*  */
+  /* ============articles start================= */
+  .tournament_details_main .tournament_d_inner {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3%;
+    margin-top: 2%;
+    .t_d_left {
+      background: url("../images/empty.jpg");
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+      border-radius: 15px;
+      overflow: hidden;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.01;
+        cursor: pointer;
+      }
+    }
+
+    .t_d_right .t_d_rignt_inner {
+      .t_d_heading {
+        font-size: 2rem;
+        font-weight: 700;
+      }
+      .t_d_place,
+      .t_d_place2,
+      .t_d_place3 {
+        font-size: 1rem;
+        opacity: 0.87;
+        word-spacing: 10px;
+      }
+      .t_d_desc {
+        text-align: justify;
+        font-size: 13px;
+      }
+
+      .t_d_team_names .team_names li {
+        font-size: 13px;
+      }
+    }
+  }
+  /* ============articles end================= */
+  /*  */
+
+  /*  */
+}
+
+@media only screen and (min-width: 1304px) {
+  .btns_main {
+    overflow: auto;
+
+    .btns_inner {
+      width: 1500px;
+      overflow-y: auto;
+    }
+  }
+
+  .btns_main::-webkit-scrollbar {
+    display: none;
+  }
+
+  .btns_main {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}

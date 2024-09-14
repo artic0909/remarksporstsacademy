@@ -1,0 +1,99 @@
+/* heading */
+.os_heading_part {
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+/* heading */
+
+/* ============================================Sports Infromation start======================================================== */
+.btns_inner {
+  padding-bottom: 3rem;
+  .nav-pills {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+}
+.sports_info_content_inner {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#gallery-2 .nav-item {
+  .active {
+    background: rgb(209, 53, 69) !important;
+    color: white !important;
+  }
+  .nav-link {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(21, 21, 65);
+    box-shadow: 2px 4px 7px rgba(32, 32, 32, 0.774);
+    background: white;
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+}
+
+/* result */
+.gal {
+  .gal_main_inner {
+    .gal_main_inner {
+      .gal_left {
+        .gal_img {
+          width: 500px !important;
+        }
+      }
+    }
+  }
+}
+/* ============================================Sports Infromation end======================================================== */
+
+/* ============articles start================= */
+.tournament_details_main .tournament_d_inner {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 5%;
+  margin-top: 2%;
+  .t_d_left {
+    background-position: center !important;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all 130ms ease-in;
+    &:hover {
+      scale: 1.01;
+      cursor: pointer;
+    }
+  }
+
+  .t_d_right .t_d_rignt_inner {
+    .t_d_heading {
+      font-size: 2.2rem;
+      font-weight: 700;
+    }
+    .t_d_place {
+      font-size: 1.2rem;
+      opacity: 0.87;
+      word-spacing: 10px;
+      margin-top: 1.5rem;
+    }
+
+    .t_d_place2,
+    .t_d_place3 {
+      font-size: 1.2rem;
+      opacity: 0.87;
+      word-spacing: 10px;
+    }
+    .t_d_desc {
+      text-align: justify;
+    }
+    .t_d_team_names .team_names {
+      list-style-type: none;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+  }
+}
+/* ============articles end================= */

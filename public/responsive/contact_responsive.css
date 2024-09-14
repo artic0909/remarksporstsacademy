@@ -1,0 +1,385 @@
+/* ================================================== */ /* ================================================== */
+/* ------------------------------Responsive ContactUs Saklin Mustak ©Copyright 2022----------------------------------------- */
+/* ================================================== */ /* ================================================== */
+
+@media (min-width: 350px) and (max-width: 414px) {
+  /*  */
+  /*  */
+  /*  */
+  /* ================================================contact query start========================================= */
+  .contact_q {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .contact_q_inner {
+      border-left: 4px solid rgb(209, 53, 69);
+      padding-left: 20px;
+      padding-right: 20px;
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: rgb(21, 21, 65);
+      }
+      p {
+        color: rgb(21, 21, 65);
+        font-size: 12px;
+      }
+    }
+  }
+  /* ================================================contact query end========================================= */
+  /*  */
+  /*  */
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* heading start */
+  .os_heading_part {
+    .img_main img {
+      width: 60px;
+    }
+    .our_s_heading {
+      font-size: 1.5rem;
+    }
+  }
+  /* heading end */
+  /*  */
+  /*  */
+  /*  */
+  .get_t_main {
+    padding-bottom: 3%;
+  }
+  .form_inner {
+    background: #ffff;
+    padding: 50px;
+    color: rgba(21, 21, 65) !important;
+    font-weight: 600;
+    border-radius: 0 30px 30px 30px;
+  }
+
+  .get_t_content_inner {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .inner_linkss {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 30px;
+    animation: 2s linear 150ms infinite alternate scrollUpDown2;
+
+    .round_back {
+      padding: 20px;
+      background: rgb(209, 53, 69);
+      border-radius: 3% 30% 45% 60%;
+      border: 4px solid white;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.02;
+        box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.781);
+      }
+    }
+    .round_back img {
+      width: 40px;
+      filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.664));
+    }
+  }
+
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+@media (min-width: 415px) and (max-width: 599px) {
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* ================================================contact query start========================================= */
+  .contact_q {
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    .contact_q_inner {
+      border-left: 4px solid rgb(209, 53, 69);
+      padding-left: 20px;
+      padding-right: 20px;
+      h4 {
+        font-size: 1.1rem;
+        font-weight: 600;
+        color: rgb(21, 21, 65);
+      }
+      p {
+        color: rgb(21, 21, 65);
+        font-size: 12px;
+      }
+    }
+  }
+  /* ================================================contact query end========================================= */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* nav */
+  .navbar-brand {
+    img {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  .nav-link,
+  .dropdown-item {
+    font-size: 14px !important;
+  }
+  /* nav */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* heading start */
+  .os_heading_part {
+    .img_main img {
+      width: 60px;
+    }
+    .our_s_heading {
+      font-size: 1.7rem;
+    }
+  }
+  /* heading end */
+  /*  */
+  /*  */
+  /*  */
+  .get_t_main {
+    padding-bottom: 3%;
+  }
+  .form_inner {
+    background: #ffff;
+    padding: 50px;
+    color: rgba(21, 21, 65) !important;
+    font-weight: 600;
+    border-radius: 0 30px 30px 30px;
+  }
+
+  .get_t_content_inner {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .inner_linkss {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 30px;
+    animation: 2s linear 150ms infinite alternate scrollUpDown2;
+
+    .round_back {
+      padding: 20px;
+      background: rgb(209, 53, 69);
+      border-radius: 3% 30% 45% 60%;
+      border: 4px solid white;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.02;
+        box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.781);
+      }
+    }
+    .round_back img {
+      width: 40px;
+      filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.664));
+    }
+  }
+
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /* floating-btn admission */
+  .floating-btn {
+    font-size: 10px !important;
+  }
+  #btn-back-to-top {
+    font-size: 10px !important;
+    padding: 5px 12px 5px 12px;
+    border-radius: 3px;
+  }
+  /* floating-btn admission */
+}
+
+@media (min-width: 600px) and (max-width: 765px) {
+  .get_t_main {
+    padding-bottom: 3%;
+  }
+  .form_inner {
+    background: #ffff;
+    padding: 50px;
+    color: rgba(21, 21, 65) !important;
+    font-weight: 600;
+    border-radius: 0 70px 70px 70px;
+  }
+
+  .get_t_content_inner {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .inner_linkss {
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    gap: 30px;
+    animation: 2s linear 150ms infinite alternate scrollUpDown2;
+
+    .round_back {
+      padding: 20px;
+      background: rgb(209, 53, 69);
+      border-radius: 3% 30% 45% 60%;
+      border: 4px solid white;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.02;
+        box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.781);
+      }
+    }
+    .round_back img {
+      width: 60px;
+      filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.664));
+    }
+  }
+
+  /*  */
+  /*  */
+  /*  */
+  /* =================footer start===================== */
+  .social_main_and_inner {
+    flex-direction: column-reverse;
+    .hide_cl {
+      display: none;
+    }
+  }
+  /* =================footer end===================== */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+  /*  */
+}
+
+@media (min-width: 767px) and (max-width: 990px) {
+  .get_t_main {
+    padding-bottom: 3%;
+  }
+  .form_inner {
+    background: #ffff;
+    padding: 50px;
+    color: rgba(21, 21, 65) !important;
+    font-weight: 600;
+    border-radius: 0 70px 70px 70px;
+  }
+
+  .get_t_content_inner {
+    margin-left: 5%;
+    margin-right: 5%;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 3%;
+    align-items: center;
+  }
+
+  .inner_linkss {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: fit-content;
+    animation: 2s linear 150ms infinite alternate scrollUpDown2;
+
+    .round_back {
+      padding: 20px;
+      background: rgb(209, 53, 69);
+      border-radius: 3% 30% 45% 60%;
+      border: 4px solid white;
+      transition: all 130ms ease-in;
+      &:hover {
+        scale: 1.02;
+        box-shadow: 1px 2px 3px rgba(255, 255, 255, 0.781);
+      }
+    }
+    .round_back img {
+      width: 60px;
+      filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.664));
+    }
+  }
+}

@@ -1,0 +1,164 @@
+/* ==========================future focus start========================= */
+.our_s_heading {
+  font-size: 2.6rem;
+}
+.img_main img{
+  width: 100px;
+}
+.os_content_part .os_content_inner {
+  margin-left: 3%;
+  margin-right: 3%;
+
+  .os_icon_desc_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2%;
+
+    .os_icon_desc_inner {
+      .img_back {
+        padding: 1rem;
+      }
+      .os_icon {
+        width: 60px;
+      }
+      .os_desc {
+        text-align: justify;
+        display: flex;
+        flex-direction: column;
+        .os_heading {
+          font-size: 1.5rem;
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+}
+/* ==========================future focus end========================= */
+
+/* ===================================Our Collab start=================================*/
+.scroll_container {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.container {
+  overflow: hidden;
+  .slider {
+    animation: slidein 30s linear infinite;
+    white-space: nowrap;
+    display: flex;
+    gap: 5%;
+    .logos {
+      display: inline-block;
+      margin: 0px 0;
+      padding: 20px;
+      display: flex;
+      align-items: center;
+      box-shadow: 3px 4px 7px rgba(156, 155, 155, 0.658);
+      .fab {
+        width: 180px;
+        animation: fade-in 0.5s cubic-bezier(0.455, 0.03, 0.515, 0.955) forwards;
+      }
+    }
+  }
+}
+
+@keyframes slidein {
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+  from {
+    transform: translate3d(-100%, 0, 0);
+  }
+}
+
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+/* ===================================Our Collab end=================================*/
+
+/* ==================================some links start=============================================== */
+.s_link_content_inner {
+  margin-left: 3%;
+  margin-right: 3%;
+
+  .s_link_content_heading {
+    font-size: 2.4rem;
+    text-align: center;
+    font-weight: 700;
+    word-spacing: 10px;
+  }
+
+  .s_links_parts_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5%;
+
+    .s_link_icon {
+      width: 80px;
+    }
+
+    .s_link_button {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      justify-content: center;
+      margin-top: 40px;
+      .s_link_text {
+        font-weight: 700;
+        font-size: 1.7rem;
+      }
+    }
+  }
+}
+/* ==================================some links end=============================================== */
+
+/* ============================================Sports Infromation start======================================================== */
+.btns_inner{
+  .nav-pills{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+  }
+}
+.sports_info_content_inner {
+  margin-left: 3%;
+  margin-right: 3%;
+}
+#gallery-2 .nav-item {
+  .active {
+    background: rgb(21, 21, 65);
+    color: white !important;
+  }
+  .nav-link {
+    padding-left: 40px;
+    padding-right: 40px;
+    color: rgb(21, 21, 65);
+    box-shadow: 2px 4px 7px rgba(168, 167, 167, 0.774);
+    font-weight: 900;
+    font-size: 1.2rem;
+  }
+}
+
+/* result */
+.gal {
+  .gal_main_inner {
+    .gal_main_inner {
+      .gal_left {
+        .gal_img {
+          width: 500px !important;
+        }
+      }
+    }
+  }
+}
+/* ============================================Sports Infromation end======================================================== */
+
+
+
+

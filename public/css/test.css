@@ -1,0 +1,30 @@
+.container-filter {
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 0;
+  margin-bottom: 30px;
+  padding: 0;
+  text-align: center;
+}
+
+.container-filter li {
+  list-style: none;
+  display: inline-block;
+}
+
+.container-filter a {
+  display: block;
+  font-size: 14px;
+  margin: 10px 20px;
+  text-transform: uppercase;
+  cursor: pointer;
+  font-weight: 400;
+  line-height: 30px;
+  -webkit-transition: all 0.6s;
+  border-bottom: 1px solid transparent;
+  color: #807c7c !important;
+}
+
+.container-filter a:hover {
+  color: #222222 !important;
+}

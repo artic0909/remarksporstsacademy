@@ -1,0 +1,200 @@
+/* heading */
+.os_heading_part{
+  .img_main img{
+    width: 100px;
+  }
+}
+/* heading */
+
+
+
+
+
+/* ========================who we are start================ */
+.who_we_inner {
+  margin-right: 3%;
+  margin-left: 3%;
+}
+/* ========================who we are end================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================our mission/ our vision start================== */
+.miss_viss_inner {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5%;
+  justify-content: space-between;
+
+  .miss_viss_left {
+    background: rgb(21, 21, 65);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3rem;
+
+    .miss_content_inner {
+      .miss_l_item {
+        list-style: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(21, 21, 65);
+        transition: all 150ms ease-in;
+        &:hover {
+          background: rgb(209, 53, 69) !important;
+          color: white !important;
+          cursor: pointer;
+          scale: 1.02;
+          box-shadow: 3px 4px 7px black;
+        }
+      }
+    }
+  }
+  .miss_viss_right {
+    background: rgb(209, 53, 69);
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-bottom: 3rem;
+
+    .viss_content_inner {
+      .viss_l_item {
+        list-style: none;
+        font-weight: 500;
+        font-size: 16px;
+        color: rgb(21, 21, 65);
+        transition: all 150ms ease-in;
+        &:hover {
+          background: rgb(21, 21, 65) !important;
+          color: white !important;
+          cursor: pointer;
+          scale: 1.02;
+          box-shadow: 3px 4px 7px black;
+        }
+      }
+    }
+  }
+}
+/* ========================our mission/ our vision end================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========================club code ethics part start================== */
+.cl_ethics_inner {
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-bottom: 3rem;
+
+  .cl_ethics_desc {
+    text-align: justify;
+    font-size: 20px;
+  }
+}
+/* ========================club code ethics part end================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ========================Players Code part start================== */
+.pl_ethics_inner {
+  margin-right: 3%;
+  margin-left: 3%;
+  padding-bottom: 3rem;
+  .pl_ethics_desc {
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 1.5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 5%;
+
+    .img_guide {
+      background-size: cover !important;
+      background-position: center !important;
+      background-repeat: no-repeat !important;
+    }
+  }
+}
+/* ========================Players Code part end================== */
+
+
+
+
+
+
+
+
+
+
+
+/* ============================================About Founder start============================================== */
+.about_founder_inner {
+  margin-right: 3%;
+  margin-left: 3%;
+
+  .about_founder_title {
+    font-size: 3rem;
+    font-weight: 900;
+    word-spacing: 15px;
+    border-bottom: 2px solid rgb(255, 255, 255);
+  }
+
+  .founder_desc_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    gap: 4%;
+    margin-top: 2rem;
+  }
+  .about_founder_desc {
+    text-align: justify;
+    opacity: 0.87;
+    font-size: 17px;
+    margin-top: 2rem;
+    font-weight: 500;
+  }
+
+  .img_founder {
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    border-radius: 110px 0 110px 0;
+    border: 5px solid white;
+    box-shadow: 4px 6px 15px rgba(53, 52, 52, 0.774);
+  }
+}
+/* ============================================About Founder end============================================== */
+
+
+
+
+
+
+
+
