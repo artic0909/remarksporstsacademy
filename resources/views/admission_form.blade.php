@@ -5,14 +5,14 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    
+
     @php
     $routeName = Route::currentRouteName();
     $metaData = \App\Http\Controllers\MetaTagController::getMetaTags($routeName);
     @endphp
 
 
- 
+
 
     <title>{{ $metaData['title'] ?? 'Default Title' }}</title>
     <meta name="description" content="{{ $metaData['description'] ?? 'Default description' }}">
@@ -274,7 +274,10 @@
                                         class="form-control input_fields"
                                         id="gender"
                                         name="gender"
-                                        required />
+                                        placeholder="use small letters (e.g- male/female/others)"
+                                        required
+                                        aria-describedby="genHelp" />
+                                    <div id="genHelp" class="form-text" style="color: white; opacity: 0.8;">Use small letters (e.g- male/female/others)</div>
                                 </div>
 
                                 <div class="mb-3">
@@ -353,7 +356,7 @@
                                 </div>
 
                                 <div class="mb-3">
-                                    <label for="tele" class="form-label" id="tele">Mobile Number  <span class="text-danger">*</span></label>
+                                    <label for="tele" class="form-label" id="tele">Mobile Number <span class="text-danger">*</span></label>
 
                                     <input
                                         type="number"
@@ -473,25 +476,29 @@
                                     <label
                                         for="cer_dob"
                                         id="cer_dob"
-                                        class="form-label">DOB Certificate <span class="text-danger">*</span></label>
+                                        class="form-label">DOB Certificate(pdf) <span class="text-danger">*</span></label>
                                     <input
                                         type="file"
                                         class="form-control input_fields"
                                         id="cer_dob"
-                                        name="cer_dob" />
+                                        name="cer_dob"
+                                        aria-describedby="dobHelp" />
+                                    <div id="dobHelp" class="form-text" style="color: white; opacity: 0.8;">Less than 1.5MB</div>
                                 </div>
 
                                 <div class="mb-3">
                                     <label
                                         for="cer_fit"
                                         class="form-label"
-                                        id="cer_fit">Medical Fit Certificate
+                                        id="cer_fit">Medical Fit Certificate(pdf)
                                         <span class="text-danger">*</span></label>
                                     <input
                                         type="file"
                                         class="form-control input_fields"
                                         id="cer_fit"
-                                        name="cer_fit" />
+                                        name="cer_fit"
+                                        aria-describedby="medfitHelp" />
+                                    <div id="medfitHelp" class="form-text" style="color: white; opacity: 0.8;">Less than 1.5MB</div>
                                 </div>
 
                                 <div class="mb-3">
@@ -501,7 +508,9 @@
                                         type="file"
                                         class="form-control input_fields"
                                         id="st_img"
-                                        name="st_img" />
+                                        name="st_img"
+                                        aria-describedby="photoHelp" />
+                                    <div id="photoHelp" class="form-text" style="color: white; opacity: 0.8;">Less than 1.5MB</div>
                                 </div>
 
                                 <div class="buttons_main d-flex gap-3">
@@ -795,6 +804,27 @@
 
 
 
+            <!-- Unsuccess Modal -->
+            <div class="modal fade" id="unsuccessModal" tabindex="-1" aria-labelledby="unsuccessModalLabel" aria-hidden="true" data-bs-backdrop="static">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="unsuccessModalLabel">Submission <span style="color: rgb(209,53,69);">Failure</span></h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body text-emerald-700">
+                            Please check your inputs and instructions again!
+                        </div>
+                        <div class="modal-footer">
+                            <a type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
 
 
         </div>
@@ -814,6 +844,24 @@
             $('#multi-step-form').on('submit', function(event) {
                 event.preventDefault(); // Prevent default form submission
 
+                // Perform client-side validation for required fields
+                var isValid = true;
+                $('#multi-step-form input[required], #multi-step-form textarea[required]').each(function() {
+                    if ($(this).val() === '') {
+                        isValid = false;
+                        $(this).addClass('is-invalid'); // Add error class for invalid fields
+                    } else {
+                        $(this).removeClass('is-invalid'); // Remove error class if valid
+                    }
+                });
+
+                // If validation fails, show unsuccessful modal
+                if (!isValid) {
+                    $('#unsuccessModal').modal('show');
+                    return; // Stop form submission if validation fails
+                }
+
+                // Proceed with AJAX submission if validation passes
                 var formData = new FormData(this);
 
                 $.ajax({
@@ -824,16 +872,20 @@
                     processData: false,
                     success: function(response) {
                         if (response.success) {
-                            $('#successModal').modal('show');
+                            $('#successModal').modal('show'); // Show success modal if server-side validation passes
+                        } else {
+                            $('#unsuccessModal').modal('show'); // Show unsuccessful modal if server-side validation fails
                         }
                     },
                     error: function(xhr, status, error) {
                         console.error('Form submission error:', error);
+                        $('#unsuccessModal').modal('show'); // Show unsuccessful modal on submission error
                     }
                 });
             });
         });
     </script>
+
 
 </body>
 

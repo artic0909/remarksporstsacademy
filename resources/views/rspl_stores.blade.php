@@ -11,7 +11,7 @@
     @endphp
 
 
- 
+
 
     <title>{{ $metaData['title'] ?? 'Default Title' }}</title>
     <meta name="description" content="{{ $metaData['description'] ?? 'Default description' }}">
@@ -355,7 +355,7 @@
 
 
 
-            
+
 
             <!-- ===================================footer start========================================= -->
             <footer
@@ -517,8 +517,11 @@
 
 
 
-
-
+            <!-- ============================Home button Start======================================================== -->
+            <a href="/" class="btn floating-btn2">
+                <i class="fa-solid fa-house"></i>
+            </a>
+            <!-- ============================Home button End======================================================== -->
 
 
 

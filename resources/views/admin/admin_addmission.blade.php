@@ -49,7 +49,8 @@
                                                 <th scope="col">Health Problems</th>
                                                 <th scope="col">Certificate(DOB)</th>
                                                 <th scope="col">Certificate(FIT)</th>
-                                                <th scope="col">Action</th>
+                                                <th scope="col">Edit</th>
+                                                <th scope="col">Save</th>
                                             </tr>
                                         </thead>
                                         <tbody>
@@ -83,19 +84,19 @@
                                                 <td>
                                                     @if($formData->cer_dob)
                                                     <a class="btn btn-warning" href="{{ route('document.download', ['type' => 'cer_dob', 'id' => $formData->id]) }}" download>
-                                                    <i class="fa-regular fa-file-pdf"></i>
+                                                        <i class="fa-regular fa-file-pdf"></i>
                                                     </a>
                                                     @endif
                                                 </td>
                                                 <td>
                                                     @if($formData->cer_fit)
                                                     <a class="btn btn-warning" href="{{ route('document.download', ['type' => 'cer_fit', 'id' => $formData->id]) }}" download>
-                                                    <i class="fa-regular fa-file-pdf"></i>
+                                                        <i class="fa-regular fa-file-pdf"></i>
                                                     </a>
                                                     @endif
                                                 </td>
 
-                                                <td class="d-flex justify-between gap-2 items-center">
+                                                <td>
                                                     <!-- Button trigger modal -->
                                                     <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalxperogarasisnopectorialmainn{{ $formData->id }}">
                                                         <i class="fa-solid fa-pen-to-square"></i>
@@ -282,7 +283,11 @@
                                                         </div>
                                                     </div>
 
-                                                    <a href="{{ route('pdf_create', ['id' => $formData->id]) }}" class="btn btn-warning">
+
+                                                </td>
+
+                                                <td>
+                                                    <a target="_blank" href="{{ route('pdf_create', ['id' => $formData->id]) }}" class="btn btn-warning">
                                                         <i class="fa-solid fa-download"></i>
                                                     </a>
                                                 </td>

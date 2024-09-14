@@ -6,7 +6,7 @@
     </x-slot>
 
     <div class="py-12">
-        <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
+        <div class=" mx-auto sm:px-6 lg:px-8">
             <div class="bg-white dark:bg-gray-800 overflow-hidden shadow-sm sm:rounded-lg">
                 <div class="p-6" style="overflow-y: auto; height: 700px; width: 100%; -ms-overflow-style: none; scrollbar-width: none; background: white;">
 
@@ -99,7 +99,7 @@
                                                 <td>{{ $producut->rs_title }}</td>
                                                 <td>{{ $producut->rs_price }}</td>
                                                 <td>{{ $producut->rs_discount }}</td>
-                                                <td><a href="{{ $producut->rs_link }}">Product Link</a></td>
+                                                <td><a target="_blank" href="{{ $producut->rs_link }}" class="btn btn-primary">Product Link</a></td>
                                                 <td>
 
 

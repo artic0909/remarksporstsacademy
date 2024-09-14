@@ -5,6 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -111,7 +113,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->name}}
                         </div>
                     </div>
@@ -126,7 +128,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->gender}}
                         </div>
                     </div>
@@ -141,7 +143,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->dob}}
                         </div>
                     </div>
@@ -149,14 +151,14 @@
                     <div
                         class="back_personal1">
                         <div>
-                            father's Name
+                            Father's Name
                         </div>
 
                         <div>
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->f_name}}
                         </div>
                     </div>
@@ -171,7 +173,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->m_name}}
                         </div>
                     </div>
@@ -186,7 +188,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->nationality}}
                         </div>
                     </div>
@@ -228,7 +230,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->add}}
                         </div>
                     </div>
@@ -243,7 +245,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->pin_no}}
                         </div>
                     </div>
@@ -258,7 +260,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->tele}}
                         </div>
                     </div>
@@ -273,7 +275,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->mob}}
                         </div>
                     </div>
@@ -288,7 +290,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->email}}
                         </div>
                     </div>
@@ -314,7 +316,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->height}} FT.
                         </div>
                     </div>
@@ -329,7 +331,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->weight}} KG.
                         </div>
                     </div>
@@ -344,7 +346,7 @@
                             :
                         </div>
 
-                        <div>
+                        <div style="text-transform: capitalize;">
                             {{$student->medical_history}}
                         </div>
                     </div>
@@ -357,7 +359,7 @@
 
                         <div>
                             :
-                        </div>
+                        </div style="text-transform: capitalize;">
 
                         <div>
                             {{$student->health_problemms}}
