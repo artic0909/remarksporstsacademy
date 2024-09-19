@@ -408,16 +408,16 @@
 
 
                                                     <!-- Button trigger modal -->
-                                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalup45">
+                                                    <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModalup45xp{{$homeCollabData->id}}">
                                                         <i class="fa-solid fa-pen-to-square"></i>
                                                     </button>
 
                                                     <!-- Modal -->
-                                                    <div class="modal fade" id="exampleModalup45" tabindex="-1" aria-labelledby="exampleModalLabelup45" aria-hidden="true">
+                                                    <div class="modal fade" id="exampleModalup45xp{{$homeCollabData->id}}" tabindex="-1" aria-labelledby="exampleModalLabelup45xp{{$homeCollabData->id}}" aria-hidden="true">
                                                         <div class="modal-dialog modal-dialog-centered">
                                                             <div class="modal-content">
                                                                 <div class="modal-header">
-                                                                    <h5 class="modal-title" id="exampleModalLabelup45">Edit Club or Brand</h5>
+                                                                    <h5 class="modal-title" id="exampleModalLabelup45xp{{$homeCollabData->id}}">Edit Club or Brand</h5>
                                                                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                                                                 </div>
                                                                 <div class="modal-body">

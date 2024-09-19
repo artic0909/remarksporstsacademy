@@ -97,8 +97,9 @@ class FrontController extends Controller
         $aboutClubEthicsDatas = AdminAboutClubEthicsModel::orderBy('created_at', 'desc')->get();
         $aboutPlayerEthicsDatas = AdminAboutPlayerEthicsModel::orderBy('created_at', 'desc')->get();
         $aboutFounderDatas = AdminAboutFounderModel::orderBy('created_at', 'desc')->get();
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
 
-        return view('about', compact('aboutDatas', 'aboutWhoDatas', 'aboutMissionDatas', 'aboutVisionDatas', 'aboutClubEthicsDatas', 'aboutPlayerEthicsDatas', 'aboutFounderDatas'));
+        return view('about', compact('aboutDatas', 'aboutWhoDatas', 'aboutMissionDatas', 'aboutVisionDatas', 'aboutClubEthicsDatas', 'aboutPlayerEthicsDatas', 'aboutFounderDatas', 'homeComapanyDatas'));
     }
 
 
@@ -115,7 +116,10 @@ class FrontController extends Controller
 
         $normalSessionDatas = AdminNormalSessionModel::orderBy('created_at', 'desc')->get();
 
-        return view('normal_session', compact('aboutDatas', 'normalSessionDatas'));
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
+
+
+        return view('normal_session', compact('aboutDatas', 'normalSessionDatas', 'homeComapanyDatas'));
     }
 
 
@@ -132,8 +136,10 @@ class FrontController extends Controller
         $aboutDatas = AdminAboutModel::orderBy('created_at', 'desc')->get();
 
         $optionalSessionDatas = AdminOptionalSessionModel::orderBy('created_at', 'desc')->get();
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
 
-        return view('optional_session', compact('aboutDatas', 'optionalSessionDatas'));
+
+        return view('optional_session', compact('aboutDatas', 'optionalSessionDatas', 'homeComapanyDatas'));
     }
 
 
@@ -148,8 +154,11 @@ class FrontController extends Controller
         $aboutDatas = AdminAboutModel::orderBy('created_at', 'desc')->get();
 
         $galleryImageDatas = AdminGalleryImageModel::orderBy('created_at', 'desc')->get();
+        
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
 
-        return view('gallery', compact('aboutDatas', 'galleryImageDatas'));
+
+        return view('gallery', compact('aboutDatas', 'galleryImageDatas', 'homeComapanyDatas'));
     }
 
 
@@ -191,7 +200,10 @@ class FrontController extends Controller
         // $tournamentsPlayedTeamDatas = AdminTournamentsPlayedTeamsModel::orderBy('created_at', 'desc')->get();
         $tournamentsDetailsDatas = AdminTournamentsInformationModel::orderBy('created_at', 'desc')->get();
 
-        return view('tournaments', compact('aboutDatas', 'tournamentsCategoryDatas', 'tournamentsDetailsDatas'));
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
+
+
+        return view('tournaments', compact('aboutDatas', 'tournamentsCategoryDatas', 'tournamentsDetailsDatas', 'homeComapanyDatas'));
     }
 
 
@@ -205,7 +217,10 @@ class FrontController extends Controller
 
         $producuts = AdminRSPLstoreModel::orderBy('created_at', 'desc')->get();
 
-        return view('rspl_stores', compact('homeBannersDatas', 'producuts'));
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
+
+
+        return view('rspl_stores', compact('homeBannersDatas', 'producuts', 'homeComapanyDatas'));
     }
 
 
@@ -219,7 +234,9 @@ class FrontController extends Controller
     public function admission()
     {
         $aboutDatas = AdminAboutModel::orderBy('created_at', 'desc')->get();
-        return view('admission_form', compact('aboutDatas'));
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
+
+        return view('admission_form', compact('aboutDatas', 'homeComapanyDatas'));
     }
 
 
@@ -307,7 +324,9 @@ class FrontController extends Controller
     public function contact()
     {
         $aboutDatas = AdminAboutModel::orderBy('created_at', 'desc')->get();
-        return view('contact', compact('aboutDatas'));
+        $homeComapanyDatas = AdminHomeCompanyEmailPhoneModel::orderBy('created_at', 'desc')->get();
+
+        return view('contact', compact('aboutDatas', 'homeComapanyDatas'));
     }
 
 

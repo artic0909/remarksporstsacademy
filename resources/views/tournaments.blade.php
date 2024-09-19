@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
+
     @php
     $routeName = Route::currentRouteName();
     $metaData = \App\Http\Controllers\MetaTagController::getMetaTags($routeName);
     @endphp
 
 
- 
+
 
     <title>{{ $metaData['title'] ?? 'Default Title' }}</title>
     <meta name="description" content="{{ $metaData['description'] ?? 'Default description' }}">
@@ -342,6 +342,7 @@
 
 
     <!-- =============================================conatact query start==================================================== -->
+    @foreach($homeComapanyDatas as $homeComapanyData)
     <section class="contact_q">
         <div class="contact_q_inner">
             <h4>If you have any query feel free to contact us.</h4>
@@ -349,11 +350,12 @@
                 We would be happy to answer your questions and set up a meeting
                 with you. Call us at +91
                 <a
-                    href="tel:+919163917909"
-                    style="text-decoration: underline; color: rgb(21, 21, 65)">91639 17909</a>.
+                    href="tel:{{$homeComapanyData->company_phone}}"
+                    style="text-decoration: underline; color: rgb(21, 21, 65)">{{$homeComapanyData->company_phone}}</a>.
             </p>
         </div>
     </section>
+    @endforeach
     <!-- =============================================conatact query end==================================================== -->
 
 
@@ -441,10 +443,8 @@
                         <hr
                             class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #7c4dff; height: 2px" />
-                        <p>
-                            Here you can use rows and columns to organize your footer
-                            content. Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit.
+                        <p style="text-align: justify;">
+                            Building future champions with expert coaching and a variety of sports programs. We help youth unlock their potential and excel both on and off the field.
                         </p>
                     </div>
                     <!-- Grid column -->
@@ -501,11 +501,18 @@
                             class="mb-4 mt-0 d-inline-block mx-auto"
                             style="width: 60px; background-color: #7c4dff; height: 2px" />
                         <p>
-                            <i class="fas fa-home mr-3"></i> Ranihati, HW 711302, IND
+                            <i class="fas fa-home mr-3"></i> <a target="_blank" href="https://www.google.com/maps/place/Your+Location" style="text-decoration: none; color: white;"> Ranihati, HW 711302, IND</a>
                         </p>
-                        <p><i class="fas fa-envelope mr-3"></i> info@example.com</p>
-                        <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
-                        <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+                        @foreach($homeComapanyDatas as $homeComapanyData)
+                        <p><i class="fas fa-envelope mr-3"></i><a href="mailto:{{$homeComapanyData->company_email}}" target="_blank" style="text-decoration: none; color: white;"> {{$homeComapanyData->company_email}}</a></p>
+                        <p><i class="fas fa-phone mr-3"></i> + 91 <a href="tel:{{$homeComapanyData->company_phone}}" style="text-decoration: none; color: white;">{{$homeComapanyData->company_phone}}</a></p>
+
+                        <p><i class="fa-brands fa-whatsapp"></i> + 91 <a href="https://wa.me/91{{$homeComapanyData->company_phone}}"
+                                style="text-decoration: none; color: white;"
+                                target="_blank">
+                                {{$homeComapanyData->company_phone}}
+                            </a></p>
+                        @endforeach
                     </div>
                     <!-- Grid column -->
                 </div>
